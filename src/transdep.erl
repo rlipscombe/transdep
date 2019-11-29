@@ -1,5 +1,5 @@
 -module(transdep).
--export([hello/0]).
+-export([start/0]).
 
-hello() ->
-    world.
+start() ->
+    {ok, _} = application:ensure_all_started(transdep).
