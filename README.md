@@ -6,6 +6,8 @@ See https://elixirforum.com/t/compiling-erlang-project-but-transitive-dependency
 
 The bug was introduced in hex 0.17.2.
 
+...and fixed in https://github.com/elixir-lang/elixir/pull/9625.
+
 ## Reproduction
 
 Requires Elixir 1.9.4.
